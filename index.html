@@ -7,14 +7,48 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <style>
+            /* Custom CSS for the profile picture in the intro section */
+            #intro .profile-pic {
+                width: 150px; /* Adjust size as needed */
+                height: 150px; /* Must match width for perfect circle */
+                border-radius: 50%; /* Makes the image circular */
+                object-fit: cover; /* Ensures the image covers the area without distortion */
+                display: block; /* Ensures it behaves as a block element */
+                margin: 0 auto 20px auto; /* Centers the image and adds space below */
+                border: 3px solid rgba(255, 255, 255, 0.5); /* Optional: a subtle border */
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: a subtle shadow */
+            }
+
+            /* Responsive adjustments for smaller screens if needed */
+            @media screen and (max-width: 736px) {
+                #intro .profile-pic {
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: 15px;
+                }
+            }
+        </style>
     </head>
     <body class="is-preload">
 
         <div id="wrapper" class="fade-in">
 
             <div id="intro">
+                <img src="images/Mohamed Elsayed.jpg" alt="Mohamed Elsayed Profile Picture" class="profile-pic">
+            
                 <h1>Mohamed Elsayed<br /></h1>
-                <p>Data Analyst well versed in Python, Power BI, MySql <a href="https://www.linkedin.com/in/mohamed-elsayed-005819176/">@Mohamed ELsayed</a>
+                <p>
+                    Welcome! I'm **Mohamed Elsayed**, a **passionate** Data Analyst dedicated to transforming complex numbers into **clear narratives** and **actionable insights**. I thrive on **creative problem-solving** and am adept at working across a **diverse range of projects**, consistently delivering **innovative solutions** and **unique ideas** that go beyond traditional analysis.
+            
+                    My toolkit includes expertise in:
+                    * **Data Management & Databases:** SQL, Cloud Servers (Azure, etc.)
+                    * **Data Collection & Automation:** KoboToolbox, Web Scraping, Google Forms, and **Python** for automation.
+                    * **Data Analysis & Visualization:** Power BI, Excel, Google Sheets, **Python** (for Visualization & Cleaning Data), and creating impactful reports.
+                    * **Programming & Application Development:** Python (for Desktop Apps & Websites development).
+            
+                    In every endeavor, I strive to produce **exceptional work** that adds genuine value, believing that diverse perspectives and a robust technical skillset are key to success in the evolving world of data.
+                </p>
                 <ul class="actions">
                     <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
                 </ul>
@@ -96,22 +130,21 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a  class="image fit"><img src="images/DAJAM_STEEL_Dashboard_1.png" alt="DAJAM STEEL Dashboard: Sales & Pricing Trends Page 1" /></a>
+                                    <a class="image fit"><img src="images/DAJAM_STEEL_Dashboard_1.png" alt="DAJAM STEEL Dashboard: Sales & Pricing Trends Page 1" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a  class="image fit"><img src="images/DAJAM_STEEL_Dashboard_2.png" alt="DAJAM STEEL Dashboard: Sales by Size Page 2" /></a>
+                                    <a class="image fit"><img src="images/DAJAM_STEEL_Dashboard_2.png" alt="DAJAM STEEL Dashboard: Sales by Size Page 2" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a  class="image fit"><img src="images/DAJAM_STEEL_Dashboard_3.png" alt="DAJAM STEEL Dashboard: Quarterly Sales Trends Page 3" /></a>
+                                    <a class="image fit"><img src="images/DAJAM_STEEL_Dashboard_3.png" alt="DAJAM STEEL Dashboard: Quarterly Sales Trends Page 3" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
                         </div>
-                    
                     </article>
-                    
+
                     <article>
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Marketing-Campaign/tree/main">Marketing Campaign Performance Dashboard<br />
@@ -157,12 +190,12 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/hotel_dashboard_1.png" alt="Hotel Management Dashboard: Commission Analysis & Trends" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/Screenshot 2025-07-20 053846.png" alt="Hotel Management Dashboard: Commission Analysis & Trends" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/hotel_dashboard_2.png" alt="Hotel Management Dashboard: Revenue Analysis & Room Types" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/Screenshot 2025-07-20 053817.png" alt="Hotel Management Dashboard: Revenue Analysis & Room Types" /></a>
                                 </div>
-                                </div>
+                            </div>
                             <div class="swiper-pagination"></div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
@@ -332,7 +365,7 @@
                                 <div class="swiper-slide">
                                     <a href="https://github.com/mohamed2elsayed/PowerPause" class="image fit"><img src="images/powerpause_ui_2.png" alt="PowerPause System Tray Icon" /></a>
                                 </div>
-                                </div>
+                            </div>
                             <div class="swiper-pagination"></div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
@@ -343,31 +376,31 @@
                     </article>
                 </section>
 
-                <footer id="footer">
-                    <section class="split contact">
-                        <section class="alt">
-                            <h3>Address</h3>
-                            <p>Cairo, Egypt</p>
-                        </section>
-                        <section>
-                            <h3>Phone</h3>
-                            <p>+201000546767</p>
-                        </section>
-                        <section>
-                            <h3>Email</h3>
-                            <p><a href="mailto:Mohamed2elsayed372@gmail.com">Mohamed2elsayed372@gmail.com</a></p>
-                        </section>
-                        <section>
-                            <h3>Social</h3>
-                            <ul class="icons alt">
-                                <li><a href="https://www.linkedin.com/in/mohamed-elsayed-005819176/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
-                                <li><a href="https://github.com/mohamed2elsayed" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                            </ul>
-                        </section>
+            <footer id="footer">
+                <section class="split contact">
+                    <section class="alt">
+                        <h3>Address</h3>
+                        <p>Cairo, Egypt</p>
                     </section>
-                </footer>
+                    <section>
+                        <h3>Phone</h3>
+                        <p>+201000546767</p>
+                    </section>
+                    <section>
+                        <h3>Email</h3>
+                        <p><a href="mailto:Mohamed2elsayed372@gmail.com">Mohamed2elsayed372@gmail.com</a></p>
+                    </section>
+                    <section>
+                        <h3>Social</h3>
+                        <ul class="icons alt">
+                            <li><a href="https://www.linkedin.com/in/mohamed-elsayed-005819176/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
+                            <li><a href="https://github.com/mohamed2elsayed" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
 
-            </div>
+        </div>
 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/jquery.scrollex.min.js"></script>

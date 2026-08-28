@@ -1,12 +1,19 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
-        <title>Mohamed_Elsayed</title>
+        <title>Mohamed Elsayed | Data Analyst Portfolio</title>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Mohamed Elsayed — Data Analyst portfolio featuring Power BI dashboards, SQL, Python and Azure data analytics projects." />
+        <meta name="theme-color" content="#212931" />
+        <meta property="og:title" content="Mohamed Elsayed | Data Analyst Portfolio" />
+        <meta property="og:description" content="Power BI dashboards, SQL, Python and Azure data analytics projects." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="images/mohamed elsayed.jpg" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/css/enhanced.css" />
         <style>
             /* Custom CSS for the profile picture in the intro section */
             #intro .profile-pic {
@@ -33,6 +40,7 @@
     <body class="is-preload">
 
         <div id="wrapper" class="fade-in">
+            <div class="bg"></div>
 
             <div id="intro">
                 <img src="images/mohamed elsayed.jpg" alt="Mohamed Elsayed Profile Picture" class="profile-pic">
@@ -59,40 +67,39 @@
 
             <nav id="nav">
                 <ul class="links">
-                    <li class="active"><a href="index.html">Projects</a></li>
-                    <li class="active"><a href="generic.html">MY CV</a></li>
+                    <li class="active"><a href="index.html" aria-current="page">Projects</a></li>
+                    <li><a href="generic.html">MY CV</a></li>
                 </ul>
                 <ul class="icons">
-                    <li><a href="https://www.linkedin.com/in/mohamed-elsayed-005819176/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
-                    <li><a href="https://github.com/mohamed2elsayed" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/mohamed-elsayed-005819176/" class="icon brands fa-linkedin" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/mohamed2elsayed" class="icon brands fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
                 </ul>
             </nav>
 
             <div id="main">
 
-                <article class="post featured">
-                    <header class="major">
-                        <h2><a href="https://github.com/mohamed2elsayed/Analysis-The-effects-of-solar-wind-on-the-magnetosphere">The effects of solar wind on the magnetosphere<br /></a></h2>
-                        <p>This project evaluates large datasets to identify trends and develop actionable insights related to the effects of solar wind on the Earth's magnetosphere. <br />
-                        </p>
-                    </header>
-                    <div class="swiper project-swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="https://github.com/mohamed2elsayed/Analysis-The-effects-of-solar-wind-on-the-magnetosphere" class="image fit"><img src="images\solar_wind_artist_impression-3186479316.jpeg" alt="Solar Wind Analysis Dashboard" /></a>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <ul class="actions special">
-                        <li><a href="https://github.com/mohamed2elsayed/Analysis-The-effects-of-solar-wind-on-the-magnetosphere" class="button large">View Project</a></li>
-                    </ul>
-                </article>
-
                 <section class="posts">
-                    <article>
+                    <article data-tags="Python, Scientific Analysis">
+                        <header>
+                            <h2><a href="https://github.com/mohamed2elsayed/Analysis-The-effects-of-solar-wind-on-the-magnetosphere">The effects of solar wind on the magnetosphere</a></h2>
+                            <p>This project evaluates large datasets to identify trends and develop actionable insights related to the effects of solar wind on the Earth's magnetosphere.</p>
+                        </header>
+                        <div class="swiper project-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="https://github.com/mohamed2elsayed/Analysis-The-effects-of-solar-wind-on-the-magnetosphere" class="image fit"><img src="images/solar_wind_artist_impression-3186479316.jpeg" alt="Solar Wind Analysis Dashboard" loading="lazy" /></a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/mohamed2elsayed/Analysis-The-effects-of-solar-wind-on-the-magnetosphere" class="button">View Project</a></li>
+                        </ul>
+                    </article>
+
+                    <article data-tags="Power BI, Azure, SQL">
                         <header>
                             <h2><a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_ecommerce-project-eyouth-activity-7333519323992334337-roeq?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88">E-commerce Analytics Power BI Dashboard<br />
                             Azure Data Analytics Project</a></h2>
@@ -103,13 +110,13 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzA2ODA4M2UtYjc5Yy00MGE2LWE4MjItMTU4MmIxZGY4NmRlIiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/ecommerce_dashboard_1.png" alt="E-commerce Dashboard Screenshot 1" /></a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzA2ODA4M2UtYjc5Yy00MGE2LWE4MjItMTU4MmIxZGY4NmRlIiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/ecommerce_dashboard_1.png" alt="E-commerce Dashboard Screenshot 1"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzA2ODA4M2UtYjc5Yy00MGE2LWE4MjItMTU4MmIxZGY4NmRlIiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/ecommerce_dashboard_2.png" alt="E-commerce Dashboard Screenshot 2" /></a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzA2ODA4M2UtYjc5Yy00MGE2LWE4MjItMTU4MmIxZGY4NmRlIiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/ecommerce_dashboard_2.png" alt="E-commerce Dashboard Screenshot 2"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzA2ODA4M2UtYjc5Yy00MGE2LWE4MjItMTU4MmIxZGY4NmRlIiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/ecommerce_dashboard_3.png" alt="E-commerce Dashboard Screenshot 3" /></a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzA2ODA4M2UtYjc5Yy00MGE2LWE4MjItMTU4MmIxZGY4NmRlIiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/ecommerce_dashboard_3.png" alt="E-commerce Dashboard Screenshot 3"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -121,7 +128,7 @@
                         </ul>
                     </article>
 
-                    <article>
+                    <article data-tags="Power BI, Freelance">
                         <header>
                             <h2><a href="YOUR_DAJAM_STEEL_PROJECT_LINK_HERE">DAJAM STEEL Sales & Pricing Analytics Dashboard<br />
                             Freelance Power BI Project</a></h2>
@@ -132,13 +139,13 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY2NGJkMGQtNTFlYy00NTU2LWI0NzYtYzcxODFkMWI2NDM0IiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9"class="image fit"><img src="images/DAJAM_STEEL_Dashboard_1.png" alt="DAJAM STEEL Dashboard: Sales & Pricing Trends Page 1" /></a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY2NGJkMGQtNTFlYy00NTU2LWI0NzYtYzcxODFkMWI2NDM0IiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9"class="image fit"><img src="images/DAJAM_STEEL_Dashboard_1.png" alt="DAJAM STEEL Dashboard: Sales & Pricing Trends Page 1"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY2NGJkMGQtNTFlYy00NTU2LWI0NzYtYzcxODFkMWI2NDM0IiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/DAJAM_STEEL_Dashboard_2.png" alt="DAJAM STEEL Dashboard: Sales by Size Page 2" /></a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY2NGJkMGQtNTFlYy00NTU2LWI0NzYtYzcxODFkMWI2NDM0IiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/DAJAM_STEEL_Dashboard_2.png" alt="DAJAM STEEL Dashboard: Sales by Size Page 2"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY2NGJkMGQtNTFlYy00NTU2LWI0NzYtYzcxODFkMWI2NDM0IiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/DAJAM_STEEL_Dashboard_3.png" alt="DAJAM STEEL Dashboard: Quarterly Sales Trends Page 3" /></a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjY2NGJkMGQtNTFlYy00NTU2LWI0NzYtYzcxODFkMWI2NDM0IiwidCI6ImI1ZjY5MTEwLWU4YmEtNDg4MC1iM2FkLWU2YzBmM2YzZDhjMiJ9" class="image fit"><img src="images/DAJAM_STEEL_Dashboard_3.png" alt="DAJAM STEEL Dashboard: Quarterly Sales Trends Page 3"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -147,7 +154,7 @@
                         </div>
                     </article>
 
-                    <article>
+                    <article data-tags="Power BI, Marketing">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Marketing-Campaign/tree/main">Marketing Campaign Performance Dashboard<br />
                             Power BI Project</a></h2>
@@ -158,19 +165,19 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_1.png" alt="Marketing Campaign Dashboard Overview" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_1.png" alt="Marketing Campaign Dashboard Overview"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_2.png" alt="Marketing Campaign Dashboard Trends" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_2.png" alt="Marketing Campaign Dashboard Trends"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_3.png" alt="Marketing Campaign Dashboard Target Audience" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_3.png" alt="Marketing Campaign Dashboard Target Audience"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_4.png" alt="Marketing Campaign Dashboard Bookings & Revenue" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_4.png" alt="Marketing Campaign Dashboard Bookings & Revenue"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_5.png" alt="Marketing Campaign Dashboard Conversions" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_marketing-campaign-activity-7215160553562861568-2Ydu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/marketing_dashboard_5.png" alt="Marketing Campaign Dashboard Conversions"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -181,7 +188,7 @@
                             <li><a href="https://github.com/mohamed2elsayed/Marketing-Campaign/tree/main" class="button">View Project</a></li>
                         </ul>
                     </article>
-                    <article>
+                    <article data-tags="Power BI, Hospitality">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Hotel-Channels">Hotel Management Power BI Dashboard<br />
                             Commission & Revenue Analysis</a></h2>
@@ -192,10 +199,10 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/hotel_dashboard_1.png" alt="Hotel Management Dashboard: Commission Analysis & Trends" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/hotel_dashboard_1.png" alt="Hotel Management Dashboard: Commission Analysis & Trends"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/hotel_dashboard_2.png" alt="Hotel Management Dashboard: Revenue Analysis & Room Types" /></a>
+                                    <a href="https://www.linkedin.com/posts/mohamed-elsayed-005819176_power-bi-dashboard-activity-7213172035470958592-rNnQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnEjcUBXzKCqdjKsLtDwTrTYa7FLUhMW88" class="image fit"><img src="images/hotel_dashboard_2.png" alt="Hotel Management Dashboard: Revenue Analysis & Room Types"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -206,7 +213,7 @@
                             <li><a href="https://github.com/mohamed2elsayed/Hotel-Channels" class="button">View Project</a></li>
                         </ul>
                     </article>
-                    <article>
+                    <article data-tags="Power BI, HR">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Diversity-and-Inclusion-PwC">Diversity & Inclusion<br />
                             Power BI</a></h2>
@@ -215,10 +222,10 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Diversity-and-Inclusion-PwC" class="image fit"><img src="images/Diversity & Inclusion1.png" alt="Diversity & Inclusion Dashboard Part 1" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Diversity-and-Inclusion-PwC" class="image fit"><img src="images/Diversity & Inclusion1.png" alt="Diversity & Inclusion Dashboard Part 1"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Diversity-and-Inclusion-PwC" class="image fit"><img src="images/Diversity & Inclusion2.png" alt="Diversity & Inclusion Dashboard Part 2" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Diversity-and-Inclusion-PwC" class="image fit"><img src="images/Diversity & Inclusion2.png" alt="Diversity & Inclusion Dashboard Part 2"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -230,7 +237,7 @@
                         </ul>
                     </article>
 
-                    <article>
+                    <article data-tags="Power BI, Operations">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Call-Center-Trend-PwC">Call Center Trend<br />
                             Power BI</a></h2>
@@ -240,10 +247,10 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Call-Center-Trend-PwC" class="image fit"><img src="images/Call Center1.png" alt="Call Center Dashboard Part 1" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Call-Center-Trend-PwC" class="image fit"><img src="images/Call Center1.png" alt="Call Center Dashboard Part 1"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Call-Center-Trend-PwC" class="image fit"><img src="images/Call Center2.png" alt="Call Center Dashboard Part 2" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Call-Center-Trend-PwC" class="image fit"><img src="images/Call Center2.png" alt="Call Center Dashboard Part 2"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -255,7 +262,7 @@
                         </ul>
                     </article>
 
-                    <article>
+                    <article data-tags="Python, Web App">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Movie_Recommender">Movies Recommendation <br />
                             Website</a></h2>
@@ -264,7 +271,7 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Movie_Recommender" class="image fit"><img src="images/movies.jpg" alt="Movie Recommender Website Screenshot" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Movie_Recommender" class="image fit"><img src="images/movies.jpg" alt="Movie Recommender Website Screenshot"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -276,7 +283,7 @@
                         </ul>
                     </article>
 
-                    <article>
+                    <article data-tags="Power BI, Telecom">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Customer-Retention-pwc">Customer Retention<br />
                             Power BI</a></h2>
@@ -285,10 +292,10 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Customer-Retention-pwc" class="image fit"><img src="images/Customer Retention1.png" alt="Customer Retention Dashboard Part 1" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Customer-Retention-pwc" class="image fit"><img src="images/Customer Retention1.png" alt="Customer Retention Dashboard Part 1"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Customer-Retention-pwc" class="image fit"><img src="images/Customer Retention2.png" alt="Customer Retention Dashboard Part 2" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Customer-Retention-pwc" class="image fit"><img src="images/Customer Retention2.png" alt="Customer Retention Dashboard Part 2"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -300,7 +307,7 @@
                         </ul>
                     </article>
 
-                    <article>
+                    <article data-tags="Power BI, Analysis">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Comprehensive-Analysis-of-Nobel-Prize-Data">Comprehensive Analysis of Nobel Prize Data<br />
                             Power BI</a></h2>
@@ -311,10 +318,10 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Comprehensive-Analysis-of-Nobel-Prize-Data" class="image fit"><img src="images/nobel prize 1.bmp" alt="Nobel Prize Dashboard Part 1" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Comprehensive-Analysis-of-Nobel-Prize-Data" class="image fit"><img src="images/nobel prize 1.bmp" alt="Nobel Prize Dashboard Part 1"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Comprehensive-Analysis-of-Nobel-Prize-Data" class="image fit"><img src="images/nobel prize 2.bmp" alt="Nobel Prize Dashboard Part 2" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Comprehensive-Analysis-of-Nobel-Prize-Data" class="image fit"><img src="images/nobel prize 2.bmp" alt="Nobel Prize Dashboard Part 2"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -326,7 +333,7 @@
                         </ul>
                     </article>
 
-                    <article>
+                    <article data-tags="Power BI, Analysis">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/Space-Missions-Summary">Space missions data understanding, visualization and analysis<br />
                             Power BI</a></h2>
@@ -337,10 +344,10 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Space-Missions-Summary" class="image fit"><img src="images/space_mission1.jpg" alt="Space Missions Dashboard Part 1" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Space-Missions-Summary" class="image fit"><img src="images/space_mission1.jpg" alt="Space Missions Dashboard Part 1"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/Space-Missions-Summary" class="image fit"><img src="images/space_mission2.jpg" alt="Space Missions Dashboard Part 2" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/Space-Missions-Summary" class="image fit"><img src="images/space_mission2.jpg" alt="Space Missions Dashboard Part 2"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -351,7 +358,7 @@
                             <li><a href="https://github.com/mohamed2elsayed/Space-Missions-Summary" class="button">View Project</a></li>
                         </ul>
                     </article>
-                    <article>
+                    <article data-tags="Python, Automation">
                         <header>
                             <h2><a href="https://github.com/mohamed2elsayed/PowerPause">PowerPause: Python Automation Tool<br />
                             Media & System Power Control</a></h2>
@@ -362,10 +369,10 @@
                         <div class="swiper project-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/PowerPause" class="image fit"><img src="images/powerpause_ui_1.png" alt="PowerPause User Interface" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/PowerPause" class="image fit"><img src="images/powerpause_ui_1.png" alt="PowerPause User Interface"  loading="lazy" /></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://github.com/mohamed2elsayed/PowerPause" class="image fit"><img src="images/powerpause_ui_2.png" alt="PowerPause System Tray Icon" /></a>
+                                    <a href="https://github.com/mohamed2elsayed/PowerPause" class="image fit"><img src="images/powerpause_ui_2.png" alt="PowerPause System Tray Icon"  loading="lazy" /></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -386,9 +393,9 @@
                     </section>
                     <section>
                         <h3>Phone</h3>
-                        <p>+201000546767</p>
+                        <p><a href="tel:+201000546767">+20 100 054 6767</a></p>
                         <p>
-                            <a href="https://wa.me/201000546767" target="_blank" class="icon brands fa-whatsapp">
+                            <a href="https://wa.me/201000546767" target="_blank" rel="noopener" class="icon brands fa-whatsapp">
                                 <span class="label">Chat on WhatsApp</span>
                             </a>
                             </p>
@@ -400,8 +407,8 @@
                     <section>
                         <h3>Social</h3>
                         <ul class="icons alt">
-                            <li><a href="https://www.linkedin.com/in/mohamed-elsayed-005819176/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
-                            <li><a href="https://github.com/mohamed2elsayed" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/mohamed-elsayed-005819176/" class="icon brands fa-linkedin" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/mohamed2elsayed" class="icon brands fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
                         </ul>
                     </section>
                 </section>
@@ -447,6 +454,7 @@
                 });
             });
         </script>
+        <script src="assets/js/enhanced.js"></script>
     </body>
 </html>
 
